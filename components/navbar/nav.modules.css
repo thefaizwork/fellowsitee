@@ -54,3 +54,11 @@ nav a {
     font-size: large;
     font: weight 1500px;;
 }
+
+.apply{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0.4em 0.5em;
+    border: 0.15em solid #0E8A92 ;
+    border-radius: 5px;
+}
