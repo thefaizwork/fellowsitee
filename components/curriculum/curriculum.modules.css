@@ -164,8 +164,8 @@ video {
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 14px;
-    color: #00A1FF;
-    border: 1px solid #00A1FF;
+    color: hsl(188, 69%, 48%) ;
+    border: 1px solid hsl(188, 69%, 48%) ;
 }
 
 
