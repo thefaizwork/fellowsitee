@@ -126,49 +126,6 @@ video {
     border: 1px solid hsl(188, 69%, 48%) ;
 }
 
-@media (max-width: 830px) {
-    .box {
-        margin: 50px auto;
-        width: 90%;
-    }
-
-    .box2, .box3 {
-        margin: 50px auto;
-        width: 90%;
-    }
-
-    .neon-button {
-        margin: 2rem auto;
-        font-size: 0.9rem;
-        padding: 0.4em 1em;
-    }
-
-    .set2 h1, .set3 h1 {
-        margin: 50px 0;
-        font-size: 2.5rem;
-        text-align: center;
-    }
-
-    .footer-col {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .footer-col h4 {
-        font-size: 16px;
-    }
-
-    .footer-col ul li a {
-        font-size: 14px;
-    }
-
-    .footer-col .social-links a {
-        height: 35px;
-        width: 35px;
-        line-height: 35px;
-    }
-}
-
 .container {
     background-color: rgb(18, 18, 22);
     padding: 300px;
@@ -335,5 +292,74 @@ video {
         opacity: 1;
       }
 
+
+
+
+
+
+
+
+
+
+      @media (max-width: 830px) {
+        .container, .box2, .box3 {
+            width: 100%; /* Full width */
+            padding: 20px; /* Adjust padding */
+            box-sizing: border-box; /* Include padding in width */
+        }
+    
+        .box2 {
+            padding: 20px;
+            margin-right: 1500px; /* Adjust padding */
+        }
+    
+        .box3 {
+            padding: 20px; /* Adjust padding */
+        }
+    
+        .neon-button {
+            font-size: 0.9rem; /* Adjust font size */
+            padding: 0.5em 1.5em; /* Adjust padding */
+            margin: 5rem 0 0 1rem; /* Adjust margin */
+        }
+    
+        .vdeo {
+            margin: 5% 0; /* Adjust margin */
+            max-width: 100%; /* Ensure full width */
+        }
+    
+        .set2 h1, .set3 h1 {
+            margin: 50px -20px; /* Adjust margin */
+        }
+    
+        .experience h3, .experience p {
+            position: relative; /* Adjust positioning */
+            top: auto; /* Remove top position */
+            right: auto; /* Remove right position */
+            font-size: 1.2em; /* Adjust font size */
+        }
+    
+        .form-check {
+            position: relative; /* Adjust positioning */
+            font-size: 1.2rem; /* Adjust font size */
+            margin-left: 0; /* Remove left margin */
+        }
+    
+        .week {
+            padding: 15px 0; /* Adjust padding */
+        }
+    
+        .week-title {
+            font-size: 20px; /* Adjust font size */
+        }
+    
+        .task {
+            font-size: 16px; /* Adjust font size */
+        }
+    
+        .tags span {
+            font-size: 12px; /* Adjust font size */
+        }
+    }
 
 
