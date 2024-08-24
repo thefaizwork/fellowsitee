@@ -1,0 +1,8 @@
+#preloader{
+    background: rgb(29,31,57) url(/spiral-css-preloader.gif) no-repeat center;
+    height: 100vh;
+    background-size: 15%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
