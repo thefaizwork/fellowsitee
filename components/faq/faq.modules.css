@@ -35,3 +35,25 @@
     font-size: 1rem;
     line-height: 1.5;
 }
+
+@media (max-width: 830px) {
+    .faq {
+        padding: 50px 20px; /* Reduce padding for smaller screens */
+        margin: 0; /* Adjust margin for better fit */
+    }
+
+    .faq h2 {
+        font-size: 3rem; /* Reduce font size for smaller screens */
+        margin-bottom: 20px; /* Reduce margin */
+    }
+
+    .faq-item h3 {
+        font-size: 1.2rem; /* Reduce font size for smaller screens */
+        margin-bottom: 8px;
+    }
+
+    .faq-item p {
+        font-size: 0.9rem; /* Slightly smaller font size */
+        line-height: 1.4; /* Adjust line height */
+    }
+}
