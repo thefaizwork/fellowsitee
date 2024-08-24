@@ -6,9 +6,10 @@
 
 .faq {
     border: 2px solid rgb(18,18,22);
-    padding: 50px;
-    background-color: rgb(18,18,22);
-    margin-right: 3px;
+    padding: 150px;
+    background-color:black;
+    margin-right: -5px;
+    margin-left: -5px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
 }

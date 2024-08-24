@@ -18,7 +18,8 @@ ul{
     padding: 70px 0;
 }
 .footer-col{
-   width: 25%;
+	text-align: center;
+	width: 20%;
    padding: 0 15px;
 }
 .footer-col h4{
@@ -33,9 +34,9 @@ ul{
 .footer-col h4::before{
 	content: '';
 	position: absolute;
-	left:0;
+	left:50;
 	bottom: -10px;
-	background-color: #26b7cd;
+	background-color: hsl(188, 69%, 48%);
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -44,6 +45,8 @@ ul{
 	margin-bottom: 10px;
 }
 .footer-col ul li a{
+	text-align: left;
+	margin-left: 60px;
 	font-size: 16px;
 	text-transform: capitalize;
 	color: #ffffff;
@@ -74,3 +77,7 @@ ul{
 	background-color: #ffffff;
 }
 
+.extra{
+	height: 30vh;
+	padding: auto;
+}
