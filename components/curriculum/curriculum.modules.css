@@ -236,6 +236,7 @@ video {
     height: 50vh;
 }
 
+
       
      
 :root {
@@ -301,7 +302,10 @@ video {
 
 
 
-      @media (max-width: 830px) {
+      @media (max-width: 480px) {
+
+
+
         .container, .box2, .box3 {
             width: 100%; /* Full width */
             padding: 20px; /* Adjust padding */
@@ -309,8 +313,12 @@ video {
         }
     
         .box2 {
-            padding: 20px;
-            margin-right: 1500px; /* Adjust padding */
+            padding: 80px;
+            width: 80%;
+            border: 2px solid hsl(188, 69%, 48%) ;
+            border-radius: 0px;
+
+            
         }
     
         .box3 {
@@ -329,7 +337,8 @@ video {
         }
     
         .set2 h1, .set3 h1 {
-            margin: 50px -20px; /* Adjust margin */
+            font-size: 35px;
+            margin: 50px 0 0 -30px; /* Adjust margin */
         }
     
         .experience h3, .experience p {
@@ -359,6 +368,18 @@ video {
     
         .tags span {
             font-size: 12px; /* Adjust font size */
+        }
+
+
+        .neon-button{
+            margin-top: 35%;
+            margin-left: 140px;
+        }
+
+        .vdeo {
+            max-width: 90%;
+            margin: 25px 0 0 18px;
+        
         }
     }
 

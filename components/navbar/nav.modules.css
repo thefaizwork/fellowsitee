@@ -3,6 +3,8 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+
     
 }
 
@@ -61,4 +63,38 @@ nav a {
     padding: 0.4em 0.5em;
     border: 0.15em solid #0E8A92 ;
     border-radius: 5px;
+}
+
+
+
+@media (max-width: 830px) {
+    nav{
+        position: absolute;
+        top: 0%;
+        width: 100%;
+        z-index: 0;
+    
+    }
+
+    /* nav a{
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+        transition: all .50s ease   ;
+
+    } */
+
+    /* nav a:hover{
+        color: white;
+    }
+
+    nav a:active{
+        color: white;
+    }
+
+    nav.open{
+        right: 2%;
+    }
+}*/
+
 }
