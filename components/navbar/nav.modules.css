@@ -14,7 +14,7 @@ nav {
     width: 100%;
     position: fixed;
     align-items: center;
-    justify-content: space-evenly;
+     justify-content: space-evenly;
     padding: 20px;
     background-color: rgba(4, 21, 25, 0.12);
     backdrop-filter: blur(9px);

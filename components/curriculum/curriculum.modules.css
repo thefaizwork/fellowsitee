@@ -249,16 +249,42 @@ video {
         }
     
         .box2 {
-            padding: 80px;
-            width: 80%;
-            border: 2px solid hsl(188, 69%, 48%) ;
-            border-radius: 0px;
+            padding: 30px;
+            width: 90%;
+            max-width: 250px;
+            border: 2px solid rgb(80, 80, 80) ;
+            border-radius: 10px;
+            
 
+            
+        }
+
+        .experience{
+            margin-top: 0px;
+            margin-left: -10px;
+            text-align: left;
+            font-size: 10px;
+        }
+
+        .form-check{
+            text-align: left;
+            left: 0px;
+            font-size: 6px;
+            margin-top: 20px;
+            left: -10px;
+            
+        }
+
+        .form-check-label{
+            
+            font-size: 12px;
+            
             
         }
     
         .box3 {
             padding: 20px; /* Adjust padding */
+            margin: 0px auto;
         }
     
         .neon-button {
@@ -307,11 +333,24 @@ video {
         }
 
 
-        .neon-button{
-            margin-top: 32%;
-            margin-left: 180px;
-        }
-        
+       
+    
+    .neon-button{
+       margin: 0;
+        padding: auto ;
+        position: relative;
+        display: inline-block;
+    }
+
+    .neon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto    ;
+        padding: 15vh;
+    }
+    
+
 
         .vdeo {
             max-width: 90%;
