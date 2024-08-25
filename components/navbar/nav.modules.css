@@ -103,7 +103,7 @@ nav a {
 
     nav{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: left;
         background-color: rgba(4, 21, 25, 0.12);
         background-color: rgba(4, 21, 25, 0.75);
         backdrop-filter: blur(8px);
@@ -117,13 +117,13 @@ nav a {
         padding: 2px 5px;
         border: 2px solid #0E8A92;
         border-radius: 5px;
-        background-color: rgba(4, 21, 25, 0.75);
+        background-color: rgba(4, 21, 25, 0.90);
         font-family: 'Poppins', sans-serif;
 
 
         position: absolute;
-        right: 20px;
-        top: 22px;
+        right: 5%;
+        top: auto;
     }
 
     .items {
@@ -146,6 +146,7 @@ nav a {
     }
 
     .apply {
+        display: none;
         margin-left: -60px;
         font-size: 12px;
         margin-top: 5px;
