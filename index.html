@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>MLSC</title>
     <link rel="stylesheet" href="./components/preloader/preloader.modules.css">
     <link rel="stylesheet" href="./components/navbar/nav.modules.css">
@@ -10,11 +12,215 @@
     <link rel="stylesheet" href="./components/curriculum/curriculum.modules.css">
     <link rel="stylesheet" href="./components/faq/faq.modules.css">
     <link rel="stylesheet" href="./components/footer/footer.modules.css">
-    
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+
 </head>
+
 <body>
-    <div w3-include-html="./components/preloader/preloader.html"></div>
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+    
+
+    </div>
+    
+    
+    <!-- NAV BAR -->
+    <nav>
+        <div class="logo">
+            <a href="#MLSC">MLSC</a>
+        </div>
+        <div class="menu-toggle">
+            <span>Menu</span>
+        </div>
+        <div class="items">
+            <h6><a href="#Network">Network</a></h6>
+            <h6><a href="#Info">Info</a></h6>
+            <h6><a href="#Wall of love">Wall of love</a></h6>
+            <h6><a href="#IRL">IRL</a></h6>
+            
+        </div>
+        <div class="apply">
+            <a href="##">Apply Now</a>
+
+        </div>
+
+
+        <script>
+            const menuToggle = document.querySelector('.menu-toggle');
+            const items = document.querySelector('.items');
+
+            menuToggle.addEventListener('click', () => {
+                items.classList.toggle('open');
+            });
+        </script>
+
+
+
+    </nav>
+
+    <!-- HERO SECTION -->
+    <main>
+        <div class="hero-text">
+            <h1>Become a 1%</h1>
+            <h2>software engineer</h2>
+        </div>
+        <div class="hero-description">
+            <h4>
+                Build 5 AI projects in 5 weeks, ship to 1000 users last 2 <br />
+                weeks, hackathons, irl meetups starting July 22. For Free.
+            </h4>
+            <h4>Deadline has passed, but we're taking final apps below</h4>
+        </div>
+        <div class="hero-buttons">
+            <button class="b2">Apply Now</button>
+            <button class="b3">About</button>
+        </div>
+    </main>
+
+    <!-- CENTER CONTENT -->
+
+    <section class="curriculum">
+        <div class="box">
+            <a href="/"></a>
+            <video class="vdeo" width="100%" height="auto" autoplay muted loop>
+                <source src="../../asset/intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+        </div>
+
+        <div class="set2">
+            <h1>What You'll Gain</h1>
+        </div>
+
+        <div class="box2">
+            <div class="experience">
+                <h3>EXPERIENCE</h3>
+                <p>
+                    Software engineering <br> fellows
+                    Headstarter
+                </p>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate" />
+                <label class="form-check-label" for="flexCheckIndeterminate">
+                    Built 5+ AI apps and APIs using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by
+                    1000 users
+                </label>
+                <br>
+                <br>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate" />
+                <label class="form-check-label" for="flexCheckIndeterminate">
+                    Built 5+ AI apps and APIs using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by
+                    1000 users
+                </label>
+
+            </div>
+        </div>
+
+        <div class="set3">
+            <h1>7 Week Curriculum</h1>
+        </div>
+
+        <div class="box3">
+            <div class="container">
+                <div class="week">
+                    <div class="date">Aug 12, – Aug 18</div>
+                    <div class="week-title">Week 4</div>
+                    <div class="task">AI Flashcards & Stripe</div>
+                    <div class="tags">
+                        <span>OpenAI</span>
+                        <span>Auth</span>
+                        <span>StripeAPI</span>
+                    </div>
+                </div>
+                <div class="week">
+                    <div class="date">Aug 19, – Aug 25</div>
+                    <div class="week-title">Week 5</div>
+                    <div class="task">AI Rate My Professor</div>
+                    <div class="tags">
+                        <span>RAG</span>
+                        <span>OpenAI</span>
+                        <span>Vectors</span>
+                    </div>
+                </div>
+                <div class="week">
+                    <div class="date">Aug 26, – Sep 1</div>
+                    <div class="week-title">Week 6</div>
+                    <div class="task">Ship to 1000 users</div>
+                    <div class="tags">
+                        <span>Branding</span>
+                        <span>Deadlines</span>
+                        <span>UI</span>
+                    </div>
+                </div>
+                <div class="week">
+                    <div class="date">Sep 2, – Sep 8</div>
+                    <div class="week-title">Week 7</div>
+                    <div class="task">Present to an Engineer</div>
+                    <div class="tags">
+                        <span>Sell</span>
+                        <span>Speak</span>
+                        <span>Ask</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="neon">
+            <a href="#" class="neon-button">Apply Now</a>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+
+    <section class="faq">
+        <h2>FAQ</h2>
+        <div class="faq-item">
+            <h3>What is MLSC?</h3>
+            <p>MLSC is an immersive program to build AI applications.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Who can apply?</h3>
+            <p>Anyone with basic knowledge of programming can apply.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER  -->
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Privacy</a>
+            <a href="#">About</a>
+            <a href="#">Terms</a>
+        </div>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-instagram"></i> </a>
+                <a href="#"><i class="fab fa-twitter"></i> </a>
+                <a href="#"><i class="fab fa-whatsapp"></i> </a>
+                <a href="#"><i class="fab fa-youtube"></i> </a>
+        </div>
+        <div class="copyright">
+            <p>© Microsoft Learn Student Chapter</p>
+        </div>
+    </footer>
+    
+    </body>
+
+    <script src="/all.JS"></script>
+    
+    
+
+
+
+
+
+    <!-- <div w3-include-html="./components/preloader/preloader.html"></div>
     <div w3-include-html="./components/navbar/nav.html"></div>
     <div w3-include-html="./components/hero/hero.html"></div>
     <div w3-include-html="./components/curriculum/curriculum.html"></div>
@@ -26,7 +232,8 @@
     <script src="https://www.w3schools.com/lib/w3.js"></script> 
     <script>
         w3.includeHTML();
-    </script>
+    </script> -->
 
 </body>
+
 </html>

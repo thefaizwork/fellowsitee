@@ -30,6 +30,7 @@ nav {
 }
 
 .items h6 {
+    
     margin: 0 20px;
 }
 
@@ -101,6 +102,7 @@ nav a {
 
     nav{
         background-color: rgba(4, 21, 25, 0.12);
+        justify-content: space-evenly;
     }
     .menu-toggle {
         display: block;
@@ -113,7 +115,7 @@ nav a {
         background-color: rgba(4, 21, 25, 0.75);
         position: absolute;
         right: 20px;
-        top: 15px;
+        top: 26px;
     }
 
     .items {
@@ -136,6 +138,6 @@ nav a {
     }
 
     .apply {
-        margin-top: 15px;
+        margin-top: 5px;
     }
 }
