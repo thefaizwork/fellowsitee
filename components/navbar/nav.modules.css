@@ -25,8 +25,9 @@ nav {
 }
 
 .items {
+
+    margin-left: -20%;
     display: flex;
-    justify-content: center;
 }
 
 .items h6 {
