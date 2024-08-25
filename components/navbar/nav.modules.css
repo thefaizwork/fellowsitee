@@ -98,6 +98,10 @@ nav a {
 }*/
 
 @media (max-width: 830px) {
+
+    nav{
+        background-color: rgba(4, 21, 25, 0.12);
+    }
     .menu-toggle {
         display: block;
         cursor: pointer;
